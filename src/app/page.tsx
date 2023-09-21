@@ -4,8 +4,24 @@ export default function Home() {
   return (
     <main>
       <h1>Home</h1>
-      <Link href="/auth/login">Login</Link>
-      <Link href="/auth/signin">Sign In</Link>
+      <div className="">
+        <Link href="/auth/login">Login</Link>
+      </div>
+      <div className="">
+        <Link href="/auth/signin">Sign In</Link> 
+      </div>
+      <div className="">
+        <Link href="/content/backEnd">BackEnd</Link>
+      </div>
+      <div className="">
+        <Link href="/content/frontEnd">FrontEnd</Link>
+      </div>
+      <div className="">
+        <Link href="/content/fullStack">FullStack</Link>
+      </div>
+      <div className="">
+        <Link href="/user/x">User</Link>
+      </div>
     </main>
   )
 }
