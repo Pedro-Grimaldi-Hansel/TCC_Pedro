@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Navbar from '../components/navbar';
+import '../styles/scss/globals.scss';
 
 export const metadata: Metadata = {
   title: 'TCC Pedro',
@@ -9,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }){
   return (
     <html lang="en">
       <body>
-        <div className="navbar">Navbar</div>
+        <Navbar/>
         {children}
         
       </body>
