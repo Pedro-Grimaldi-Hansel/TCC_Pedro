@@ -46,7 +46,11 @@
   border-radius: 15px;
 }
 .navbar .links .auth .tags a:hover {
-  border-color: #1f1f1f;
+  border-color: transparent;
+}
+.navbar .links .auth .tags :hover {
+  padding: 1.5px;
+  border-radius: 15px;
 }
 .navbar .linha {
   display: flex;
