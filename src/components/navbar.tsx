@@ -39,7 +39,7 @@ export default function Navbar() {
                         <p>ou</p>
                         <div className={styles.tags}>
                             <Link href="/auth/signUp">
-                                <p>SingUp</p>
+                                <p>Sing Up</p>
                             </Link>
                         </div>    
                     </div>
